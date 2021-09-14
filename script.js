@@ -13,9 +13,10 @@ function compute()
         alert("Enter a positive number");
         document.getElementById("principal").focus();
         return;
-        }
+        } else {
     //If all is well, start rate calculation.
     document.getElementById("result").innerHTML="If you deposit <mark>"+principal+"</mark>,\<br\>at an interest rate of <mark>"+rate+"%</mark>\<br\>You will receive an amount of <mark>"+principal+interest+"</mark> ,\<br\>in the year <mark>"+year+"</mark>\<br\>";
+}
 };
 
 function updateRate() 
